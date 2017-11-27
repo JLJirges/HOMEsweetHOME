@@ -1,0 +1,823 @@
+body {
+    font-family: "Book Antiqua", Fallback, sans-serif;
+}
+
+ul, li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* HEADER */
+
+header {
+    font-size: 10pt;
+}
+
+.header_background{
+    border: solid rgba(215, 176, 138, 0.2) 2px;
+    background-color: rgba(215, 176, 138, 0.1);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    max-width: 100%;
+    max-height: 2cm;
+}
+
+.header_background_two {
+    border: solid rgba(215, 176, 138, 0.2) 2px;
+
+    margin: 0.2cm;
+    padding: 0.1cm;
+}
+
+.first_header_content {
+    padding: 0.5cm;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    line-height: 20px;
+}
+
+.first_header_content > div {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+h1 > a > img {
+    max-width: 200px;
+    max-height: 150px;
+    transform: rotate(-9deg);
+}
+
+.Nutzerbedienung > a > img {
+    max-width: 70px;
+    max-height: 80px;
+    margin-top: -15px;
+    margin-left: 10px;
+}
+
+.Fav > a > img {
+    max-width: 60px;
+    max-height: 60px;
+    margin-top: 1px;
+}
+
+
+.Aktionstext {
+
+    background-color: rgba(255,255,255, 0.6);
+    border: 4pt double white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+
+    font-size: 22pt;
+    font-family: "Book Antiqua", Fallback, serif;
+    color: black;
+    padding: 0.3cm;
+}
+
+
+.werbespecial {
+    background: url("../assets/imgs/werbespecial_background_img.png") no-repeat;
+    background-size: cover;
+    max-height: 4cm;
+    max-width: 50%;
+    margin-left: 20%;
+    box-shadow: 2px 3px 20px #888888;
+    padding: 3%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.Suchfunktion {
+    display: flex; justify-content: flex-end;
+    margin-right: 5%;
+    margin-top: 2%;
+    max-height: 1cm;
+}
+
+.Suchfunktion > img {
+    margin-top: -19px;
+}
+
+.Suchbox {
+    padding: 0.2cm;
+    background-color: lightgray;
+    border: solid 1px darkgrey;
+    margin-left: 1%;
+    max-height: 0.3cm;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0.1cm;
+    max-height: 5cm;
+    margin: 1% 5% 5% 5%;
+    font-size: 12pt;
+    border: solid rgba(215, 176, 138, 0.2) 2px;
+
+}
+
+nav > ul {
+    display: flex;
+    border: solid rgba(215, 176, 138, 0.2) 2px;
+    background-color: rgba(215, 176, 138, 0.1);
+    padding: 0.5%;
+}
+
+nav > ul > li {
+    margin-top: 0.5cm;
+    line-height: 20px;
+}
+
+nav > ul > li > div {
+    margin-top: 0.5cm;
+    margin-bottom: 0.5cm;
+}
+
+nav > ul > li > div > a {
+    padding: 0.2cm;
+    font-size: 12pt;
+}
+
+.Info_breadcrums {
+    margin-left: 10%;
+    margin-bottom: 5%;
+    font-size: 12pt;
+}
+
+/* HEADER ENDE */
+
+
+/* ********************************** H O M E ************************************** */
+
+h3 {
+    font-family: "Book Antiqua", Fallback, serif;
+    margin: 5px 20% 10px 18%;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.HOMEsweetHOME > img {
+max-width: 30%;
+    margin-left: 34%;
+}
+
+.welcome_text {
+    margin: 2% 20% 2% 20%;
+    font-size: 12pt;
+    line-height: 30px;
+}
+
+.home_main_content {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.Auswahlboxen {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.Auswahlboxen > ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.Auswahlboxen > ul > li {
+    width: 300px;
+    height: 200px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 3px 3px 10px 3px #888888;
+    border-radius: 2px;
+    margin: 1cm;
+}
+
+.Neuheiten_box {
+    background: url("../assets/imgs/Bestrated.jpg") no-repeat;
+    background-size: cover;
+}
+
+h4 > a {
+    background-color: rgba(255,255,255, 0.6);
+    border: 3pt double white;
+    max-width: 85%;
+    padding: 0.5cm;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 15pt;
+    font-weight: bold;
+}
+
+.Beliebt_box {
+    background: url("../assets/imgs/bestrated_3.jpg") no-repeat;
+    background-size: cover;
+}
+
+.Beste_Bewertung_box {
+    background: url("../assets/imgs/home_wall.png") no-repeat;
+    background-size: cover;
+}
+
+.Sale_box {
+    background: url("../assets/imgs/bestrated_2.jpg") no-repeat;
+    background-size: cover;
+}
+
+
+.salepercent {
+    width: 47%;
+    transform: rotate(9deg);
+    margin-top: 15%;
+    margin-left: -10%;
+}
+
+.saleedge {
+ width: 53.5%;
+
+    margin-top: -20%;
+    margin-left: -2%;
+
+}
+
+.home_textbox {
+    display: flex;
+    justify-content: space-around;
+    margin: 4% 12% 4% 12%;
+    font-size: 12pt;
+    line-height: 25px;
+}
+
+
+
+.Newsletter {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+
+    border: #75644e 4px solid;
+    background-color: #cebca5;
+
+    max-width: 800px;
+    margin: 3% 20% 3% 20%;
+    padding: 1%;
+
+    font-family: "Book Antiqua", Fallback, "serif";
+}
+
+
+h5 {
+    font-size: 20pt;
+    text-decoration: underline;
+}
+
+.Newsletter_Content {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+}
+
+.news_content {
+    margin: 2%;
+    width: 100%;
+    font-size: 12pt;
+}
+
+.Newsletter > p {
+    font-size: 15pt;
+    padding: 2cm;
+    width: 600px;
+}
+
+.news_send_div {
+    margin-top: 10%;
+    width: 100%;
+    display: flex;
+}
+
+.Newsletter_Email > div > input {
+    margin-top: 2%;
+
+}
+
+.Newsletter_Email > div > label {
+    font-size: 15pt;
+}
+
+h6 {
+    font-size: 20pt;
+    color: white;
+
+    font-family: "AR BERKLEY", Fallback, serif;
+}
+
+.News_Vorteile_Aufzählung > ul > li > img {
+    margin-top: 10px;
+}
+
+.News_Vorteile_Aufzählung > ul > li {
+    color: white;
+    font-family: "AR BERKLEY", Fallback, serif;
+    font-size: 17pt;
+}
+
+.News_Vorteile_Aufzählung {
+    margin-bottom: 10%;
+}
+
+.Newsletter > string {
+    font-size: 20pt;
+    font-family: "AR BERKLEY", Fallback, serif;
+;
+    margin-top: 5%;
+    margin-left: -12%;
+}
+
+.home_info_p {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    margin: 5% 20% 5% 20%;
+    font-size: 10px;
+}
+
+
+/* ***************************** H O M E      E N D ******************************** */
+
+
+/* ************************** P R O D U K T Ü B E R S I C H T ************************** */
+
+.Produkübersicht_Hauptdiv {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 1%;
+}
+
+.Produktübersicht_Contentdiv {
+    display: flex;
+    flex-direction: column;
+}
+
+.Filter {
+    max-width: 20%;
+    height: 50%;
+    background-color: rgba(215, 176, 138, 0.2);
+    border-radius: 5px;
+
+    display: flex;
+    align-items: center;
+
+    margin-left: 4%;
+}
+
+.Filteroptionen > ul {
+    width: 300px;
+}
+
+.Filteroptionen > ul > li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(215, 176, 138, 0.2);
+
+    margin: 10%;
+    font-size: 15pt;
+    max-width: 80%;
+    height: 1cm;
+}
+
+
+.Produkte_UL {
+    max-width: 80%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.Produktübersicht_Contentdiv {
+    margin-right: 3%;
+}
+
+.Produktübersicht_Contentdiv > ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 10px;
+}
+
+
+.Produktübersicht_Contentdiv > ul > li {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    max-width: 350px;
+    margin: 5px;
+    padding: 5px;
+}
+
+.Produktübersicht_Contentdiv > ul > li > a {
+    box-shadow: 1px 5px 20px 1px grey;
+    width: 200px;
+    height: 200px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.Preis {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 15%;
+    margin-top: 25px;
+    font-size: 13pt;
+}
+
+.Produktname {
+    font-size: 15pt;
+    text-decoration: none;
+    margin: 30px 30px 10px 0;
+    max-width: 200px;
+}
+
+.Seitenanzeige {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+
+/* ******************* P R O D U K T Ü B E R S I C H T     E N D E ********************** */
+
+/* ************************** N U T Z E R R E G I S T R I E R U N G ************************** */
+
+
+.content {
+    padding: 2%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 15%;
+    margin-right: 20%;
+}
+
+.content_box_one {
+    display: block;
+    width: 16cm;
+    padding: 4%;
+    background-color: white;
+    border-radius: 20px;
+    margin-left: 3%;
+}
+
+
+.content_box_two {
+    display: block;
+    width: 15cm;
+    height: 8cm;
+    padding-top: 8%;
+    padding-left: 4%;
+    background-color: #e3ccb1;
+
+
+    border-top-right-radius: 5%;
+    border-top-left-radius: 5%;
+}
+
+.content_box_three {
+    display: block;
+    margin-left: 17%;
+    margin-right: 24%;
+    margin-top: -2.1%;
+    padding: 2%;
+    background-color: #e3ccb1;
+
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+}
+
+.anrede_gender {
+    margin-left: 11%;
+    margin-top: 10%;
+}
+
+.titel, .telnr, .name_pw {
+    margin-left: 11%;
+}
+
+
+.group_three_left_float {
+    float: left;
+    margin-right: 24%;
+
+}
+
+h3 {
+    font-size: 25pt;
+    margin-top: -1%;
+}
+
+h4 {
+    font-size: 20pt;
+    margin-top: 2%;
+    margin-left: 2%;
+}
+
+
+
+.text_content {
+    font-size: 15pt;
+}
+
+
+/* FORMULAR */
+
+
+
+.form-group {
+    padding: 5%;
+
+}
+
+.form-control {
+    height: 1cm;
+    display: flex;
+    flex-wrap: wrap;
+    width: 8cm;
+}
+
+.Landauswahl {
+    height: 1.3cm;
+    width: 10cm;
+}
+
+
+.genauerOrt {
+    display: flex;
+    margin-top: 3.5%;
+    margin-left: 57%;
+}
+
+.Ort {
+    height: 1.3cm;
+    width: 4cm;
+}
+
+.PLZ {
+    height: 1cm;
+    width: 4cm;
+}
+
+.country_section {
+    display: flex;
+    flex-direction: column;
+    margin-left: 3.4%;
+    margin-top: 3%;
+}
+
+.form-control::-webkit-input-placeholder {
+    font-size: 18px;
+}
+
+label {
+    font-size: 15pt;
+
+}
+
+.Anrede {
+    margin-left: 4%;
+    font-size: 15pt;
+}
+
+.gender_radios {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 15%;
+    margin-right: 45%;
+    margin-top: 3%;
+}
+
+.newsletter {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+}
+
+/* Formular 2 */
+
+.Formular_zwei {
+    margin-top: 8%;
+
+}
+
+.content_box_five {
+    display: block;
+    width: 15cm;
+    height: 8cm;
+    padding-top: 8%;
+    padding-left: 4%;
+    background-color: #eddbc3;
+    margin-left: 6.6%;
+    border-top-right-radius: 5%;
+    border-top-left-radius: 5%;
+}
+
+.content_box_six {
+    display: block;
+    margin-left: 15%;
+    margin-right: 20.7%;
+    margin-top: -3.2%;
+    padding: 2%;
+    background-color: #eddbc3;
+
+    border-top-left-radius: 1%;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+}
+
+
+/* Formular 3 */
+
+.content_box_eight {
+    display: block;
+    width: 15cm;
+    height: 9cm;
+    padding-top: 8%;
+    padding-left: 4%;
+    background-color: bisque;
+    margin-left: 6.6%;
+    border-top-right-radius: 5%;
+    border-top-left-radius: 5%;
+}
+
+.content_box_nine {
+    display: block;
+    margin-left: 15%;
+    margin-right: 20.7%;
+    margin-top: -3.2%;
+    padding: 2%;
+    background-color: bisque;
+
+    border-top-left-radius: 1%;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+}
+
+.registrierung_information {
+    margin-left: 5%;
+    margin-top: -3%;
+}
+
+.Woher_erfahren {
+    height: 1cm;
+    width: 10cm;
+}
+
+
+
+.Pflichtboxen {
+    display: flex;
+    flex-direction: column;
+}
+
+.radio_angaben {
+    margin-left: -22%;
+}
+
+.newsletter_and_send {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.newsletter_radio {
+    display: flex;
+    justify-content: center;
+}
+
+.send_and_arrow {
+    display: flex;
+    justify-content: center;
+    margin-left: 9%;
+}
+
+.arrow_div {
+    margin-top: -3%;
+}
+
+
+
+.btn {
+    background: #6c8723;
+    background-image: -webkit-linear-gradient(top, #6c8723, #566c19);
+    background-image: -moz-linear-gradient(top, #6c8723, #566c19);
+    background-image: -ms-linear-gradient(top, #6c8723, #566c19);
+    background-image: -o-linear-gradient(top, #6c8723, #566c19);
+    background-image: linear-gradient(to bottom, #6c8723, #566c19);
+    -webkit-border-radius: 13%;
+    -moz-border-radius: 13%;
+    border-radius: 13px;
+    text-shadow: 1px 1px 4px #666666;
+    -webkit-box-shadow: 1px 1px 2px #666666;
+    -moz-box-shadow: 1px 1px 2px #666666;
+    box-shadow: 1px 1px 2px #666666;
+    font-family: "Book Antiqua", Fallback, "serif";
+    color: white;
+    font-size: 23px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #7d9b2c;
+    text-decoration: none;
+}
+
+.Vorteile_genießen {
+    font-family: "AR BERKLEY", Fallback, serif;
+    display: flex;
+    justify-content: center;
+    font-size: 25pt;
+    margin-left: 20%;
+    margin-top: -3%
+}
+
+/* ************** N U T Z E R R E G I S T R I E R U N G         E N D E  ********************** */
+
+
+
+
+/* FOOTER */
+
+footer {
+
+    background-color: rgba(215, 176, 138, 0.2);
+    padding: 1%;
+    font-family: "Book Antiqua", fallback, serif;
+    font-size: 10pt;
+    line-height: 13pt;
+    margin-top: 5%;
+}
+
+.background {
+    background-color: rgba(215, 176, 138, 0.2);
+    padding: 1%;
+}
+
+.footer_sections {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.follow_us {
+    display: flex;
+    justify-content: space-between;
+    padding: 1%;
+
+}
+
+.follow_li {
+    max-width: 2cm;
+    padding: 3px;
+}
+
+.facebook {
+    margin-left: 2px;
+    margin-top: -5px;
+}
+
+.insta {
+    margin-top: 2px;
+    margin-right: 6px;
+}
+
+
+.copyright {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 2%;
+}
+
